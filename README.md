@@ -4,7 +4,7 @@ I developed this sample app while working as a Technical Marketing Intern at Bro
 Corporation in order to demonstrate the available printing functionality.
 
 The app is a sample Point-of-Sale System which can print sample labels that reflect situations in which
-a commercial level Point-of-Sale System may aim to implement such functionality.
+a commercial level Point-of-Sale System may aim to implement printing functionalities.
 
 ---
 ## Running the app
