@@ -38,7 +38,7 @@ two possible methods to connect.
 
 _The following is done on the "Printer Settings" page accessed from the Vendor Menu_
 
-1.) You can search for available printers on a Wi-Fi network by selecting "Find Printer". The app
+1.) You can search for available printers on the Wi-Fi network by selecting "Find Printer". The app
 will then search for printers of the models that you have selected under "Model".
 
 2.) You can manually enter the IP Address and Model. To do this, enter the IP under "Manual IP Address"
