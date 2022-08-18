@@ -6,7 +6,7 @@ Corporation in order to demonstrate the available printing functionality.
 The app is a sample Point-of-Sale System which can print sample labels and demonstrates simply yet comprehensively how to convert data in an app to a printed label.
 
 ---
-## Running the app
+## Running the App
 
 ### Basic Functionality
 
