@@ -1,5 +1,5 @@
 # Brother Label Printer SDK Sample App
-Welcome to the Brother Label Printer SDK Sample App.
+Welcome to the Brother Label Printer Android SDK Sample App.
 I developed this sample app while working as a Technical Marketing Intern at Brother International
 Corporation in order to demonstrate the available printing functionality.
 
@@ -15,6 +15,7 @@ The app can be run without a Brother Label printer, but you will only be able to
 To run the app, all you need is the code provided in this project.
 
 To start, you must add items for sale by going to "Log In As Vendor" -> "Manage Items" -> "Add Items".
+Items are stored in the device's internal storage.
 Once you have added items, you can place orders from the "Log In As Customer" menu.
 
 Once orders are placed, they can be viewed in the "View Placed Orders" Activity of the Vendor Menu.
