@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">FoodSampleApp</string>
+    <string name="launch_activity_name">Food Sample App</string>
+    <string name="log_in_as_vendor">Log In As Vendor</string>
+    <string name="app_title">Sample POS App</string>
+    <string name="log_in_as_customer">Log In As Customer</string>
+    <string name="welcome_vendor">Welcome, Vendor!</string>
+    <string name="placed_orders">View Placed Orders</string>
+    <string name="fulfilled_orders">View Fulfilled Orders</string>
+    <string name="add_item">Add a Menu Item</string>
+    <string name="printer_settings">Printer Settings</string>
+    <string name="welcome_customer">Welcome, Customer!</string>
+    <string name="order_food">View Available Items</string>
+    <string name="view_basket">View Your Basket</string>
+
+    <string name="current_basket_heading">Your Basket</string>
+
+    <string name="progress_dialog_message_communication_start">Start communication…</string>
+    <string name="progress_dialog_message_transfer_start">Transfer Start…</string>
+    <string name="progress_dialog_message_preparing_connection">Preparing the connection…</string>
+    <string name="progress_dialog_message_createData">Creating the data</string>
+    <string name="progress_dialog_message_sendingData">Sending the data…</string>
+    <string name="progress_dialog_message_sendingPrintingData">Sending the data…</string>
+    <string name="progress_dialog_message_startPrint">Printing the data </string>
+    <string name="progress_dialog_message_dataSent">The data was sent </string>
+    <string name="progress_dialog_message_printed">The printing process was completed </string>
+    <string name="progress_dialog_message_close_connection">Closing the connection</string>
+    <string name="progress_dialog_message_set_paper">Please Set Paper</string>
+    <string name="progress_dialog_message_cooling_start">Printer cooling start</string>
+    <string name="progress_dialog_message_cooling_end">Printer cooling end</string>
+    <string name="progress_dialog_message_waiting_peel">Wait for peeling label</string>
+    <string name="progress_dialog_message_sending_template">File transferring</string>
+    <string name="progress_dialog_message_getting_bluetooth_setting">Getting Bluetooth settings </string>
+    <string name="progress_dialog_message_setting_bluetooth_setting">Transferring Bluetooth settings </string>
+    <string name="progress_dialog_message_removing_template">Removing templates </string>
+    <string name="progress_dialog_message_getting_template">Getting template list </string>
+    <string name="error_message_runtime">Runtime error occurred </string>
+    <string name="error_message_weong_os">Android OS is not supported</string>
+    <string name="error_message_no_usb">USB device is not found</string>
+    <string name="cancel_printer_msg">Is cancelling, please wait</string>
+
+    <string name="remove">Remove Item</string>
+    <string name="you_chose">You Chose:</string>
+    <string name="how_many">How many do you want to remove?</string>
+    <string name="place_and_print">Place Order</string>
+    <string name="are_you_sure">Are You Sure?</string>
+
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="close_connect">closing…</string>
+
+    <string name="error_message_none">Succeeded</string>
+    <string name="ac_adapter">AC adapter</string>
+    <string name="battery_full">Full</string>
+    <string name="battery_middle">Middle</string>
+    <string name="battery_weak">Weak</string>
+    <string name="battery_charge">Need charging</string>
+
+    <string name="item_name">Item Name</string>
+    <string name="price">Price</string>
+    <string name="new_item">Add Item</string>
+
+    <string name="instruction_one">Instruction 1</string>
+    <string name="new_instruction">Add New Instruction</string>
+
+    <string name="order">Order</string>
+
+    <string name="error">Error</string>
+    <string name="invalid_price">Please Enter a Valid Price</string>
+    <string name="invalid_name">Please Enter a Valid Name</string>
+
+    <string name="csv_head">name,price,instructions</string>
+
+    <string name="manage_items">Manage Items</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="select_to_delete">Select an Item to Delete</string>
+
+    <string name="order_number">Order Number:</string>
+
+    <string name="print_order">Print Order</string>
+    <string name="fulfill_order">Fulfill Order</string>
+
+    <string name="receipt">Would you like a receipt?</string>
+    <string name="placed_orders_header">Placed Orders</string>
+    <string name="fulfilled_orders_header">Fulfilled Orders</string>
+    <string name="tap_to_delete">Tap an item to remove it from your order.</string>
+    <string name="print">Print</string>
+    <string name="add_special_instruction">Add Special Instruction</string>
+    <string name="special_instruction_one">Special Instruction 1</string>
+
+    <string name="button_add">Add</string>
+    <string name="add_to_basket">Add Item To Basket</string>
+    <string name="available_items_label">Available Items</string>
+    <string name="customer_menu_label">Customer Main Menu</string>
+    <string name="vendor_menu_label">Vendor Main menu</string>
+    <string name="main_menu">Main Menu</string>
+
+    <string name="netPrinterListTitle_label">Net Printer</string>
+    <string name="search_printer">Searching…</string>
+    <string name="no_network_device">No Net Printer Found</string>
+
+    <string name="no_printer_selected">No Printer Selected</string>
+    <string name="please_connect">Please Connect to a Printer</string>
+    <string name="refresh">Refresh</string>
+    <string name="find_printer">Find Printer</string>
+    <string name="manual_ip">Manually Set the IP Address</string>
+
+    <string name="print_settings">Print Settings</string>
+
+    <string name="template_key">Template Key</string>
+    <string name="valid_template_key">Please Enter a Valid Template Key</string>
+    <string name="printer_status">Network Printer Status:</string>
+    <string name="connected">Connected!</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="enter_name">Enter A Name For Your Order</string>
+
+    <string name="pickup_at_time">Pickup On Selected Date and Time</string>
+    <string name="pickup_asap">Pickup ASAP</string>
+    <string name="for_pickup_asap">For Pickup ASAP</string>
+
+    <string name="connection_type">Connection Type</string>
+    <string name="enter_mac">Enter The MAC Address</string>
+
+    <string name="need_bluetooth">Need Bluetooth</string>
+    <string name="cant_proceed">You must allow permission to connect to Bluetooth</string>
+    <string name="proper_label_size">You Must Use a 2.4\" Continuous Label To Print</string>
+
+    <string name="set_pickup_time">Set Pickup Time</string>
+
+    <string-array name="connection_types">
+        <item>Wifi</item>
+        <item>Bluetooth</item>
+    </string-array>
+
+    <string name="empty"></string>
+</resources>

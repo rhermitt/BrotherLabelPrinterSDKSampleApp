@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.foodsampleapp">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodSampleApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity_FulfilledOrderPrinterSettings"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_PlacedOrderPrinterSettings"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_FindPrinter"
+            android:exported="false"
+            android:label="@string/find_printer" />
+        <activity
+            android:name=".Activity_PrinterSettings"
+            android:exported="false"
+            android:label="@string/printer_settings" />
+        <activity
+            android:name=".Activity_AddItemToBasket"
+            android:exported="false"
+            android:label="@string/add_to_basket" />
+        <activity
+            android:name=".Activity_FulfilledOrders"
+            android:exported="false"
+            android:label="@string/fulfilled_orders_header" />
+        <activity
+            android:name=".Activity_PlacedOrders"
+            android:exported="false"
+            android:label="@string/placed_orders_header" />
+        <activity
+            android:name=".Activity_ManageItemsMenu"
+            android:exported="false"
+            android:label="@string/manage_items" />
+        <activity
+            android:name=".Activity_RemoveItemForSale"
+            android:exported="false"
+            android:label="@string/remove_item" />
+        <activity
+            android:name=".Activity_OrderItems"
+            android:exported="false"
+            android:label="@string/available_items_label" />
+        <activity
+            android:name=".Activity_AddItem"
+            android:exported="false"
+            android:label="@string/new_item"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Activity_ViewBasket"
+            android:exported="false"
+            android:label="@string/current_basket_heading" />
+        <activity
+            android:name=".Activity_CustomerMenu"
+            android:exported="false"
+            android:label="@string/customer_menu_label" />
+        <activity
+            android:name=".Activity_VendorMenu"
+            android:exported="false"
+            android:label="@string/vendor_menu_label" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/launch_activity_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
